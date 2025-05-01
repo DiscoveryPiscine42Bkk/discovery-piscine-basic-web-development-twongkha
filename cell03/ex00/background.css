@@ -1,0 +1,26 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border: 0;
+    outline: none;
+    background-color: wheat;
+    color: black;
+    font-size: 18px;
+    font-family: monospace;
+    padding:14px;
+    cursor: pointer;
+
+}
+button:hover{
+    transform: scale(1.2);
+}
