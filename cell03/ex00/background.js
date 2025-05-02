@@ -7,3 +7,17 @@ button.addEventListener('click',() => {
     bgE1.style.backgroundColor = color;
     console.log(color)
 })
+
+let click = 0;
+
+function clickon(){
+    click ++;
+    if(
+        click < 4
+    ){
+        let Button = document.getElementById(button);
+        button.style.width = (100+click*100)+"px";
+        button.style.height = (75+click*80)+"px";
+        button.style.fontSize = (20+click*20)+"px";
+    }
+}
